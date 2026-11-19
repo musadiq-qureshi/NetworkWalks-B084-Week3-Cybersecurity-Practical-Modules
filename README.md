@@ -1,168 +1,192 @@
- <h1 align="center">🔐 NetworkWalks Cybersecurity Internship – Week 3</h1>
+<h1 align="center">🔐 NetworkWalks Cybersecurity Internship – Week 3</h1>
 
 <h3 align="center">Password Recovery & Security Auditing</h3>
 
 <p align="center">
-  <b>Practical Cybersecurity Training with John the Ripper, Johnny GUI & NetworkWalks Tools</b>
+  <strong>Practical Cybersecurity Training with John the Ripper, Johnny GUI & NetworkWalks Tools</strong>
 </p>
 
 <p align="center">
-  <b>Batch B084 | Week 3 Practical Modules</b>
+  <strong>Batch B084 | Week 3 Practical Modules</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/musadiq-qureshi">
-    <img src="https://img.shields.io/badge/GitHub-Musadiq%20Qureshi-black?logo=github" alt="GitHub">
+    <img src="https://img.shields.io/badge/GitHub-Musadiq%20Qureshi-181717?style=for-the-badge&logo=github" alt="GitHub Profile">
   </a>
   <a href="https://www.linkedin.com/in/musadiq-qureshi-32271936a/">
-    <img src="https://img.shields.io/badge/LinkedIn-Musadiq%20Qureshi-blue?logo=linkedin" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-Musadiq%20Qureshi-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile">
   </a>
 </p>
 
 ---
 
+
 ## 📌 Project Overview
 
-This repository contains my Week 3 practical work for the **NetworkWalks Cybersecurity Internship – Batch B084**.
+This repository documents my **Week 3 practical activities** as part of the NetworkWalks Cybersecurity Internship – Batch B084.
 
-This week's practical training focused on PDF password recovery, hash extraction, and learning how password auditing tools work.
+During this week, I worked on practical exercises related to PDF password recovery, hash extraction, and password security auditing.
 
-I practiced using John the Ripper (JTR), Johnny GUI, and NetworkWalks online tools in an authorized educational training environment.
+The assigned exercises involved using **John the Ripper (JTR), Johnny GUI, and NetworkWalks online tools** in an authorized educational training environment.
 
-This repository includes screenshots documenting the tools, practical procedures, and training results for both modules.
-
----
-
-## 🎯 Practical Modules
-
-### ✅ PM1 – Password Recovery with John the Ripper (JTR) & Johnny
-
-**Objective:**
-
-To understand PDF password recovery and learn how John the Ripper and its Johnny graphical interface can be used for password auditing with an assigned training PDF.
-
-**Tools Used:**
-
-- **John the Ripper (JTR):** A password auditing tool that tests password guesses against extracted password data.
-- **Johnny GUI:** A graphical interface for working with John the Ripper.
-- **Notepad:** Used to view and prepare the extracted PDF hash.
-- **Online Hash Cracker:** Used as part of the assigned training exercise.
-
-**Practical Steps:**
-
-1. Downloaded and prepared the assigned John the Ripper and Johnny tools.
-2. Located the John executable inside the extracted program folder.
-3. Opened Johnny GUI and configured its John executable location.
-4. Used the assigned sample PDF for the practical exercise.
-5. Extracted the PDF hash and saved it in a text file named `hash1.txt`.
-6. Opened the extracted hash in Notepad for inspection.
-7. Used the assigned online hash cracker as part of the training activity.
-8. Performed the password recovery exercise and captured screenshots of the practical steps and results.
-
-### 📸 PM1 – Screenshots & Practical Evidence
-
-**1. Johnny Application Opened**
-
-![Johnny Application Opened](./PM1_JTR_Johnny/Johnny_Application_Opened.png)
-
-**2. PDF Hash Opened in Notepad**
-
-![PDF Hash Notepad](./PM1_JTR_Johnny/PDF_Hash_Notepad.png)
-
-**3. Online Hash Cracker Opened**
-
-![Online Hash Cracker Opened](./PM1_JTR_Johnny/Online_Hash_Cracker_Opened.png)
-
-**4. Online Hash Cracker Result**
-
-![Online Hash Cracker Result](./PM1_JTR_Johnny/Online_Hash_Cracker_Result.png)
-
-**5. Password Recovery Result – Screenshot 01**
-
-![Password Recovery Result 01](./PM1_JTR_Johnny/Password_Recovery_Result_01.png)
-
-**6. Password Recovery Result – Screenshot 02**
-
-![Password Recovery Result 02](./PM1_JTR_Johnny/Password_Recovery_Result_02.png)
-
-**7. Password Recovery Result – Screenshot 03**
-
-![Password Recovery Result 03](./PM1_JTR_Johnny/Password_Recovery_Result_03.png)
+This repository contains the practical workflows, screenshots, and learning outcomes from both project modules.
 
 ---
 
-### ✅ PM2 – Password Recovery with NetworkWalks Tools
+## 🎯 PM1 – Password Recovery with John the Ripper (JTR) & Johnny
 
-**Objective:**
+### Objective
 
-To understand how NetworkWalks online tools can be used to calculate an assigned PDF hash and perform a password recovery exercise.
+To understand PDF password recovery and learn how John the Ripper and Johnny GUI are used in password auditing exercises.
 
-**Tools Used:**
+### Tools Used
 
-- **NetworkWalks Hash Calculator:** Used to process the assigned PDF and generate its hash representation.
+- **John the Ripper (JTR):** Password auditing and recovery tool.
+- **Johnny GUI:** Graphical interface for John the Ripper.
+- **Notepad:** Used to view and inspect the extracted PDF hash.
+- **Online Hash Cracker:** Used for the assigned training exercise.
+
+### Practical Workflow
+
+1. Prepared the John the Ripper and Johnny applications.
+2. Located the John executable in the program folder.
+3. Opened Johnny and configured its executable location.
+4. Selected the assigned sample PDF file.
+5. Extracted the PDF hash and saved it as `hash1.txt`.
+6. Opened the extracted hash file using Notepad.
+7. Used the assigned online hash-cracking tool.
+8. Observed the recovery process and documented the practical results.
+
+### 📸 PM1 – Screenshots & Evidence
+
+**01. Johnny Application Opened**
+
+<p align="center">
+  <img src="./PM1_JTR_Johnny/Johnny_Application_Opened.PNG" alt="Johnny Application Opened" width="800">
+</p>
+
+**02. PDF Hash in Notepad**
+
+<p align="center">
+  <img src="./PM1_JTR_Johnny/PDF_Hash_Notepad.PNG" alt="PDF Hash in Notepad" width="800">
+</p>
+
+**03. Online Hash Cracker Opened**
+
+<p align="center">
+  <img src="./PM1_JTR_Johnny/Online_Hash_Cracker_Opened.PNG" alt="Online Hash Cracker Opened" width="800">
+</p>
+
+**04. Online Hash Cracker Result**
+
+<p align="center">
+  <img src="./PM1_JTR_Johnny/Online_Hash_Cracker_Result.PNG" alt="Online Hash Cracker Result" width="800">
+</p>
+
+**05. Password Recovery Result – 01**
+
+<p align="center">
+  <img src="./PM1_JTR_Johnny/Password_Recovery_Result_01.PNG" alt="Password Recovery Result 01" width="800">
+</p>
+
+**06. Password Recovery Result – 02**
+
+<p align="center">
+  <img src="./PM1_JTR_Johnny/Password_Recovery_Result_02.PNG" alt="Password Recovery Result 02" width="800">
+</p>
+
+**07. Password Recovery Result – 03**
+
+<p align="center">
+  <img src="./PM1_JTR_Johnny/Password_Recovery_Result_03.PNG" alt="Password Recovery Result 03" width="800">
+</p>
+
+---
+
+## 🎯 PM2 – Password Recovery with NetworkWalks Tools
+
+### Objective
+
+To understand how NetworkWalks online tools generate PDF hashes and perform password recovery exercises.
+
+### Tools Used
+
+- **NetworkWalks Hash Calculator:** Used to generate a hash from the assigned PDF file.
 - **NetworkWalks Password Cracker:** Used to perform the assigned password recovery exercise using the extracted hash.
 
-**Practical Steps:**
+### Practical Workflow
 
 1. Opened the NetworkWalks Hash Calculator.
-2. Selected and uploaded the assigned sample training PDF.
-3. Generated the PDF hash using the Hash Calculator.
+2. Uploaded the assigned sample training PDF.
+3. Generated the PDF hash.
 4. Viewed the generated hash result.
 5. Opened the NetworkWalks Password Cracker.
-6. Entered the extracted PDF hash into the tool.
+6. Entered the extracted hash.
 7. Started the password recovery process.
-8. Observed the result and captured screenshots of the practical work.
+8. Observed and documented the results.
 
-### 📸 PM2 – Screenshots & Practical Evidence
+### 📸 PM2 – Screenshots & Evidence
 
-**1. Hash Calculator Opened**
+**01. Hash Calculator Opened**
 
-![Hash Calculator Opened](./PM2_NetworkWalks_Tools/Hash_Calculator_Opened.png)
+<p align="center">
+  <img src="./PM2_NetworkWalks_Tools/Hash_Calculator_Opened.PNG" alt="Hash Calculator Opened" width="800">
+</p>
 
-**2. Hash Calculator Result**
+**02. Hash Calculator Result**
 
-![Hash Calculator Result](./PM2_NetworkWalks_Tools/Hash_Calculator_Result.png)
+<p align="center">
+  <img src="./PM2_NetworkWalks_Tools/Hash_Calculator_Result.PNG" alt="Hash Calculator Result" width="800">
+</p>
 
-**3. Password Cracker Opened**
+**03. Password Cracker Opened**
 
-![Password Cracker Opened](./PM2_NetworkWalks_Tools/Password_Cracker_Opened.png)
+<p align="center">
+  <img src="./PM2_NetworkWalks_Tools/Password_Cracker_Opened.PNG" alt="Password Cracker Opened" width="800">
+</p>
 
-**4. Password Cracker Result**
+**04. Password Cracker Result**
 
-![Password Cracker Result](./PM2_NetworkWalks_Tools/Password_Cracker_Result.png)
+<p align="center">
+  <img src="./PM2_NetworkWalks_Tools/Password_Cracker_Result.PNG" alt="Password Cracker Result" width="800">
+</p>
 
 ---
 
 ## 🛠️ Skills & Learning Outcomes
 
-Through these practical exercises, I gained experience with:
+Through these practical exercises, I gained experience in:
 
-- Understanding password recovery and password auditing concepts.
-- Learning the basic functionality of John the Ripper.
-- Working with Johnny GUI.
-- Understanding PDF hash extraction.
-- Preparing and viewing hash data using Notepad.
+- Understanding PDF password recovery concepts.
+- Introduction to John the Ripper.
+- Working with the Johnny graphical interface.
+- PDF hash extraction and preparation.
+- Inspecting extracted hash files using Notepad.
 - Using online password recovery tools.
-- Understanding how extracted hash data is used during password recovery.
-- Following practical cybersecurity procedures in a controlled training environment.
+- Understanding basic password auditing workflows.
+- Documenting cybersecurity practical activities.
 
 ---
 
 ## 🔒 Training & Security Note
 
-All practical exercises were performed for educational purposes using the sample PDF, hash, and password provided for training.
+All practical activities were performed for educational purposes using the sample PDF files, hashes, and assigned resources provided for internship training.
 
-The activities were limited to the assigned internship exercises and authorized training resources.
+The exercises were limited to the assigned internship tasks and authorized training resources.
 
 ---
 
 ## 👨‍💻 Internship Information
 
-- **Organization:** NetworkWalks
-- **Internship:** Cybersecurity Internship
-- **Batch:** B084
-- **Week:** 3
-- **Instructor:** Waqas Karim (CCIE)
+| Detail | Information |
+|:---|:---|
+| Organization | NetworkWalks |
+| Internship | Cybersecurity Internship |
+| Batch | B084 |
+| Week | 03 |
+| Practical Modules | PM1 & PM2 |
+| Instructor | Waqas Karim (CCIE) |
 
 ---
 
